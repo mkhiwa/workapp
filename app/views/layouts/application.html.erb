@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WorkApp</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+<%= render "layouts/navbar" %>
+<%= render "layouts/error" %>
+    <div class="container">
+      <%= yield %>
+
+    <footer>
+      <p>&copy; <i>Dynamic it 2021</i></p>
+    </footer>
+   <!-- /container -->
+     </div>
+  </body>
+</html>

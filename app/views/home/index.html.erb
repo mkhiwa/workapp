@@ -1,0 +1,22 @@
+<h1>Welcome to The <i>Job App</i></h1>
+
+
+<button class="btn btn-primary" onclick="myFunction()">Hide</button>
+<div id="myDIV">
+<p>
+  <i class="far fa-smile-beam fa-3x"></i>
+</p>
+</div>
+<%= link_to "SignUp", new_consultant_registration_path %>
+<script>
+
+    function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+</script>

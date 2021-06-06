@@ -1,0 +1,13 @@
+
+
+<h1>Consultants-(<%= @consultants.size %>)</h1>
+<% @consultants.each do |consult| %>
+<ul>
+  <li>
+    <%= link_to consult.name, consult %>
+  </li>
+</ul>
+
+<% end %>
+
+<%= link_to 'New Consultant', new_consultant_path %>

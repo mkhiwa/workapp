@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  consultant: one
+  name: MyString
+  location: MyString
+  request_by: MyString
+  notes: MyText
+
+two:
+  consultant: two
+  name: MyString
+  location: MyString
+  request_by: MyString
+  notes: MyText
